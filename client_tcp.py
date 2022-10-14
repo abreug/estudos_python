@@ -1,6 +1,6 @@
 import socket
 
-#Tempo para estabelecer a conexão
+#tempo para estabelecer a conexão
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client.settimeout(1)
 
